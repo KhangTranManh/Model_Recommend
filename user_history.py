@@ -1,9 +1,10 @@
 import os, json
 import numpy as np
 from collections import defaultdict, Counter
+from config import config
 
-HISTORY_FILE = "user_history.json"
-GLOBAL_FILE = "global_stats.json"
+HISTORY_FILE = config.USER_HISTORY
+GLOBAL_FILE = config.GLOBAL_STATS
 
 # -------------------
 # Helpers

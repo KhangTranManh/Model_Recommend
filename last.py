@@ -6,12 +6,9 @@ from transformers import CLIPProcessor
 import faiss
 
 from FashionCLIP import FashionCLIP  # <- your model class file
+from config import DEFAULT_CHECKPOINT, DEFAULT_IMAGES_DIR, DEFAULT_NPZ, DEFAULT_INDEX, resolve_image_path
 
-# --- default paths ---
-DEFAULT_CHECKPOINT = r"D:\Secret\duan\fashion_clip_final.pt"
-DEFAULT_IMAGES_DIR = r"D:\Secret\duan\pic"
-DEFAULT_NPZ   = r"D:\Secret\duan\gallery_embeddings.npz"
-DEFAULT_INDEX = r"D:\Secret\duan\gallery_ip.index"
+# --- default paths (now imported from config) ---
 
 # --- model ---
 class FashionCLIPWrapper(nn.Module):
@@ -50,6 +47,8 @@ def embed_text(model, processor, query, device, cfg):
 
 @torch.no_grad()
 def embed_one_image(model, processor, img_path, device, cfg):
+    # Resolve the image path to handle legacy/incorrect paths
+    img_path = resolve_image_path(img_path)
     img = Image.open(img_path).convert("RGB")
     enc = processor(text=[""], images=[img], return_tensors="pt",
                     padding="max_length", truncation=True, max_length=cfg.get("max_length",77))

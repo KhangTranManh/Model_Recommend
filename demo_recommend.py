@@ -15,6 +15,7 @@ import requests
 # Import your existing modules
 from last import load_model, embed_one_image, embed_text, search
 from user_history import save_query, get_recent_embedding, get_top_items, get_top_queries
+from config import config, ensure_directories, resolve_image_path
 
 class FashionRecommendationApp:
     def __init__(self, root):
@@ -22,17 +23,18 @@ class FashionRecommendationApp:
         self.root.title("Fashion Recommendation System")
         self.root.geometry("1400x900")
         
-        # Configuration
-        self.CHECKPOINT = r"D:\Secret\duan\fashion_clip_best.pt"
-        self.IMAGES_DIR = r"D:\Secret\duan\pic"
-        self.NPZ_PATH = r"D:\Secret\duan\gallery_embeddings.npz"
-        self.DATA_DIR = "data"
+        # Configuration - now using portable paths
+        self.CHECKPOINT = config.checkpoint_path
+        self.IMAGES_DIR = config.images_dir_path
+        self.NPZ_PATH = config.embeddings_path
+        self.DATA_DIR = config.data_dir_path
         self.USER_ID = "user1"
         
         # Get user IP for tracking
         self.user_ip = self.get_user_ip()
         
         # Create data directory structure
+        ensure_directories()
         self.setup_data_directories()
         
         # Create analytics directories
@@ -309,7 +311,7 @@ class FashionRecommendationApp:
             if idx >= len(self.keep_paths):
                 continue
                 
-            img_path = self.keep_paths[idx]
+            img_path = resolve_image_path(self.keep_paths[idx])
             
             # Result frame
             result_frame = ttk.Frame(self.scrollable_frame, relief=tk.RIDGE, borderwidth=1)
@@ -360,7 +362,7 @@ class FashionRecommendationApp:
             if idx >= len(self.keep_paths):
                 continue
                 
-            img_path = self.keep_paths[idx]
+            img_path = resolve_image_path(self.keep_paths[idx])
             filename = os.path.basename(img_path)
             
             # Skip exact filename duplicates
@@ -384,7 +386,7 @@ class FashionRecommendationApp:
                         if prev_idx >= len(self.keep_paths):
                             continue
                             
-                        prev_path = self.keep_paths[prev_idx]
+                        prev_path = resolve_image_path(self.keep_paths[prev_idx])
                         prev_vec = None
                         
                         if hasattr(self, 'gallery_vecs') and prev_idx < len(self.gallery_vecs):

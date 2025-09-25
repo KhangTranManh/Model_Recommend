@@ -6,12 +6,13 @@ from transformers import CLIPProcessor
 import faiss
 
 from FashionCLIP import FashionCLIP   # your model class
+from config import DEFAULT_CHECKPOINT, DEFAULT_IMAGES_DIR, DEFAULT_NPZ, DEFAULT_INDEX
 
-# --- paths ---
-CHECKPOINT = r"D:\Secret\duan\fashion_clip_best.pt"
-IMAGES_DIR = r"D:\Secret\duan\pic"
-NPZ_OUT    = r"D:\Secret\duan\gallery_embeddings.npz"
-INDEX_OUT  = r"D:\Secret\duan\gallery_ip.index"
+# --- paths (now imported from config) ---
+CHECKPOINT = DEFAULT_CHECKPOINT
+IMAGES_DIR = DEFAULT_IMAGES_DIR
+NPZ_OUT    = DEFAULT_NPZ
+INDEX_OUT  = DEFAULT_INDEX
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": "2025-09-26T00:59:07.859523",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T00:59:52.739469",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:10:35.757004",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\Model_Recommend\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\Model_Recommend\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:11:12.781322",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "Red shoes",
+      "results_count": 10
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:16:30.772720",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\Model_Recommend\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\Model_Recommend\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:16:41.794227",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "red shoes",
+      "results_count": 10
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:16:43.406986",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "purchase",
+    "details": {
+      "item": "13555.jpg"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:16:48.833248",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "blue flower shoes",
+      "results_count": 8
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-26T01:16:56.248905",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "blue flower dress",
+      "results_count": 5
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  }
+]

@@ -4,10 +4,11 @@ import faiss
 import os
 from PIL import Image
 import matplotlib.pyplot as plt
+from config import config, resolve_image_path
 
 # --- Config ---
-NPZ_PATH = r"D:\Secret\duan\gallery_embeddings.npz"   # your saved gallery
-QUERY_JSON = r"D:\Secret\duan\data\user_searches\search_2025-09-25T00-42-29.721242.json"             # file containing the query embedding JSON
+NPZ_PATH = config.embeddings_path   # your saved gallery
+QUERY_JSON = os.path.join(config.data_dir_path, "user_searches", "search_2025-09-25T00-42-29.721242.json")  # file containing the query embedding JSON
 TOP_K = 5
 
 # --- Load gallery embeddings ---
@@ -42,7 +43,8 @@ for rank, (i, s) in enumerate(zip(idxs[0], sims[0]), 1):
 plt.figure(figsize=(15, 3))
 for j, i in enumerate(idxs[0], 1):
     try:
-        img = Image.open(gallery_paths[i]).convert("RGB")
+        img_path = resolve_image_path(gallery_paths[i])
+        img = Image.open(img_path).convert("RGB")
         plt.subplot(1, TOP_K, j)
         plt.imshow(img)
         plt.axis("off")
