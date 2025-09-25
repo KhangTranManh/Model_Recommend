@@ -1,0 +1,8 @@
+Text → Image
+
+python demo_retrieval.py --query_text "red floral summer dress" --k 6 --show
+
+
+Image → Image
+
+python demo_retrieval.py --query_image "D:\Secret\duan\pic\your_image.jpg" --k 6 --show

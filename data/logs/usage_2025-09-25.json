@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": "2025-09-25T00:41:51.523610",
+    "user_id": "user1",
+    "ip_address": "171.243.48.157",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T00:42:12.960861",
+    "user_id": "user1",
+    "ip_address": "171.243.48.157",
+    "action": "text_search",
+    "details": {
+      "query": "short",
+      "results_count": 7
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T00:42:16.923640",
+    "user_id": "user1",
+    "ip_address": "171.243.48.157",
+    "action": "text_search",
+    "details": {
+      "query": "pants",
+      "results_count": 6
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T00:42:29.729060",
+    "user_id": "user1",
+    "ip_address": "171.243.48.157",
+    "action": "image_search",
+    "details": {
+      "image_file": "10013.jpg",
+      "results_count": 1
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T00:42:34.501681",
+    "user_id": "user1",
+    "ip_address": "171.243.48.157",
+    "action": "purchase",
+    "details": {
+      "item": "10013.jpg"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T11:20:22.565267",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "D:\\Secret\\duan\\fashion_clip_best.pt",
+      "images_directory": "D:\\Secret\\duan\\pic"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T11:21:00.956742",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "Long jeans",
+      "results_count": 2
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T11:21:11.585719",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "short",
+      "results_count": 7
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-09-25T11:21:15.806772",
+    "user_id": "user1",
+    "ip_address": "171.243.49.11",
+    "action": "text_search",
+    "details": {
+      "query": "sock",
+      "results_count": 9
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.26100",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+      "python_version": "3.13.1",
+      "hostname": "KxcPc",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  }
+]

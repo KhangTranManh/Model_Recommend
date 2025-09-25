@@ -1,0 +1,14 @@
+{
+  "total_searches": 6,
+  "search_types": {
+    "text": 5,
+    "image": 1
+  },
+  "ips": {
+    "171.243.48.157": 3,
+    "171.243.49.11": 3
+  },
+  "daily_searches": {
+    "2025-09-25": 6
+  }
+}
