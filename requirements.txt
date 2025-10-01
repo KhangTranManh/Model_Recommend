@@ -1,0 +1,32 @@
+# Fashion Recommendation System Requirements
+# Core ML and AI libraries
+torch>=1.9.0
+transformers>=4.20.0
+numpy>=1.21.0
+pillow>=8.3.0
+
+# Vector search and similarity
+faiss-cpu>=1.7.0
+# Note: Use faiss-gpu if you have CUDA support
+
+# GUI and interface
+tkinter-dev  # Usually comes with Python
+matplotlib>=3.5.0
+
+# Data handling
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Utilities
+requests>=2.25.0
+tqdm>=4.60.0
+
+# Development and testing (optional)
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0
+
+# Note: Some systems may need additional packages:
+# On Ubuntu/Debian: sudo apt-get install python3-tk
+# On macOS: Usually included with Python installation
+# On Windows: Usually included with Python installation
