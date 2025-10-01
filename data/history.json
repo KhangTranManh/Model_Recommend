@@ -1,0 +1,128 @@
+[
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:24:53.452083",
+    "query": "Red shirt",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:25:26.191368",
+    "query": "blue pant",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:27:51.482472",
+    "query": "red hat",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:28:07.437154",
+    "query": "red flower dress",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:28:15.806987",
+    "query": "shoes",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:28:21.161971",
+    "query": "black shoes",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:29:58.704046",
+    "query": "watch",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:30:03.962371",
+    "query": "gucci",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:30:24.765953",
+    "query": "shirt",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:30:32.982685",
+    "query": "black T-shirt",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:30:59.904784",
+    "query": "[IMAGE] shopping.webp",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:42:12.959168",
+    "query": "short",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:42:16.914568",
+    "query": "pants",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T00:42:29.721242",
+    "query": "[IMAGE] 10013.jpg",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T11:21:00.953409",
+    "query": "Long jeans",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T11:21:11.575134",
+    "query": "short",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-25T11:21:15.797939",
+    "query": "sock",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-26T01:11:12.773059",
+    "query": "Red shoes",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-26T01:16:41.784389",
+    "query": "red shoes",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-26T01:16:48.823452",
+    "query": "blue flower shoes",
+    "clicked_item": null
+  },
+  {
+    "user_id": "user1",
+    "timestamp": "2025-09-26T01:16:56.239921",
+    "query": "blue flower dress",
+    "clicked_item": null
+  }
+]
