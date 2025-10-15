@@ -8,12 +8,13 @@ import faiss
 
 # ===== Load model + index =====
 from fashion_recommender.models.FashionCLIP import FashionCLIP  # model class definition
+from fashion_recommender.config.config import DEFAULT_CHECKPOINT, DEFAULT_INDEX, DEFAULT_NPZ, DEFAULT_IMAGES_DIR
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CHECKPOINT = os.path.join(BASE_DIR, "data", "models", "fashion_clip_best.pt")
-INDEX_PATH = os.path.join(BASE_DIR, "data", "embeddings", "gallery_ip.index")
-NPZ_PATH = os.path.join(BASE_DIR, "data", "embeddings", "gallery_embeddings.npz")
-IMAGES_DIR = os.path.join(BASE_DIR, "assets", "images", "gallery")
+# Centralized, portable paths
+CHECKPOINT = DEFAULT_CHECKPOINT
+INDEX_PATH = DEFAULT_INDEX
+NPZ_PATH = DEFAULT_NPZ
+IMAGES_DIR = DEFAULT_IMAGES_DIR
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -21,7 +22,13 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ckpt = torch.load(CHECKPOINT, map_location="cpu", weights_only=False)
 cfg = ckpt["config"]
 processor = CLIPProcessor.from_pretrained(cfg["model_name"])
-model = FashionCLIP(cfg["model_name"], cfg["embedding_dim"]).to(device)
+model = FashionCLIP(
+    cfg["model_name"],
+    cfg.get("embedding_dim", 256),
+    use_projection=True,
+    use_layer_norm=True,
+    enable_compile=False,
+).to(device)
 model.load_state_dict(ckpt["model_state_dict"])
 model.eval()
 
@@ -59,6 +66,7 @@ def root():
 
 @app.post("/search/text")
 def search_text(query: str = Form(...), k: int = Form(5)):
+    k = max(1, min(int(k), 50))
     q = embed_text(query)
     sims, idxs = index.search(q, k)
     results = [{"path": local_paths[i], "score": float(s)} for i, s in zip(idxs[0], sims[0])]
@@ -66,6 +74,7 @@ def search_text(query: str = Form(...), k: int = Form(5)):
 
 @app.post("/search/image")
 async def search_image(file: UploadFile, k: int = Form(5)):
+    k = max(1, min(int(k), 50))
     img = Image.open(file.file)
     q = embed_image(img)
     sims, idxs = index.search(q, k)
