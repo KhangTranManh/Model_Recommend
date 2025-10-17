@@ -38,4 +38,4 @@ USER CONTROL:
 - No personal information beyond usage patterns is collected
 
 This is a local application - your data remains on your computer.
-Generated on: 2025-10-01 16:51:40
+Generated on: 2025-10-15 21:52:47

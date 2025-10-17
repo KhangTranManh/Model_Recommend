@@ -1,0 +1,305 @@
+[
+  {
+    "timestamp": "2025-10-02T16:15:42.295161",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:33:37.201045",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:33:50.797033",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "Hat",
+      "results_count": 9
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:56:56.970735",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:58:14.869945",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:58:41.419786",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "green hat",
+      "results_count": 7
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:59:01.170089",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "black shirt",
+      "results_count": 6
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:59:09.584023",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "blue pants",
+      "results_count": 5
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:59:19.089210",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "blue shirt",
+      "results_count": 2
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T16:59:21.159554",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "purchase",
+    "details": {
+      "item": "25530.jpg"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:06:34.674959",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:11:57.111759",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:12:05.832563",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "image_search",
+    "details": {
+      "image_file": "C301_BLACK_2.webp",
+      "results_count": 4
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:12:44.071281",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "image_search",
+    "details": {
+      "image_file": "kkk.jpg",
+      "results_count": 8
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:22:26.967429",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-02T17:22:43.769021",
+    "user_id": "user1",
+    "ip_address": "125.235.209.74",
+    "action": "text_search",
+    "details": {
+      "query": "Red hat",
+      "results_count": 8
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  }
+]

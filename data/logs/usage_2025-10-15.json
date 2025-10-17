@@ -1,0 +1,77 @@
+[
+  {
+    "timestamp": "2025-10-15T21:52:47.783119",
+    "user_id": "user1",
+    "ip_address": "115.79.227.91",
+    "action": "app_startup",
+    "details": {
+      "model_checkpoint": "E:\\model\\Model_Recommend\\data\\models\\fashion_clip_best.pt",
+      "images_directory": "E:\\model\\Model_Recommend\\assets\\images\\gallery"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-15T21:53:26.347960",
+    "user_id": "user1",
+    "ip_address": "115.79.227.91",
+    "action": "text_search",
+    "details": {
+      "query": "Red flag",
+      "results_count": 9
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-15T21:53:33.840771",
+    "user_id": "user1",
+    "ip_address": "115.79.227.91",
+    "action": "text_search",
+    "details": {
+      "query": "Blue jeans",
+      "results_count": 1
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  },
+  {
+    "timestamp": "2025-10-15T21:53:35.449750",
+    "user_id": "user1",
+    "ip_address": "115.79.227.91",
+    "action": "purchase",
+    "details": {
+      "item": "43421.jpg"
+    },
+    "session_info": {
+      "platform": "Windows",
+      "platform_version": "10.0.22631",
+      "machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "python_version": "3.13.7",
+      "hostname": "MSI",
+      "user_agent": "FashionRecommendationApp/1.0 (Windows)"
+    }
+  }
+]
